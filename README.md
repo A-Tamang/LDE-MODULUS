@@ -2,7 +2,7 @@
 
 [Work in Progress]
 
-A Linear Diophantine/Modulus Equation Solver made in Python. 
+             A Linear Diophantine/Modulus Equation Solver made in Python. 
 
 Purpose:
 
