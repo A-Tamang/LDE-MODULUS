@@ -14,12 +14,12 @@ screen for text to show up) and follow the instructions.
 
 Future updates:
              
-             Show "particular solutions" as well as complete solutions
+             i) Show "particular solutions" as well as complete solutions
              
-             Be able to accept negative Modulo (currently not integrated)
+            ii) Be able to accept negative Modulo (currently not integrated)
              
-             Make modulo calculations more efficient by simplying
+           iii) Make modulo calculations more efficient by simplying
                   before evaluating via EEA Algorithm
                   
-             Make into webpage with a clean interface
+           iv)  Make into webpage with a clean interface
 
