@@ -1,6 +1,7 @@
 # LDE-MODULUS
 
-[Work in Progress]
+[Work in Progress] LDE-MODULUS
+
 A Linear Diophantine/Modulus Equation Solver made in Python. 
 
 Purpose:
