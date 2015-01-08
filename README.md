@@ -1,4 +1,4 @@
-# [Work in Progress] LDE-MODULUS
+# [WIP] LDE-MODULUS
 
 Synopsis:
 
