@@ -15,7 +15,7 @@ Instructions:
              To use, simply run the run the program on PythonIDLE (as it has a larger 
              screen for text to show up) and follow the instructions.
 
-Future updates:
+Future Updates:
              
              i) Show "particular solutions" as well as complete solutions
              
