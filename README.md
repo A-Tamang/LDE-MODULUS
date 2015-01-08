@@ -1,7 +1,7 @@
 # LDE-MODULUS
-A Linear Diophantine/Modulus Equation Solver made in Python. 
 
 [Work in Progress]
+A Linear Diophantine/Modulus Equation Solver made in Python. 
 
 Purpose:
 This program can evaluate any LDE (Linear Diophantine Equation)
@@ -21,5 +21,5 @@ Future updates:
            iii) Make modulo calculations more efficient by simplying
                   before evaluating via EEA Algorithm
                   
-           iv)  Make into webpage with a clean interface
+            iv) Make into webpage with a clean interface
 
