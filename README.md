@@ -13,6 +13,7 @@ To use, simply run the run the program on PythonIDLE (as it has a larger
 screen for text to show up) and follow the instructions.
 
 Future updates:
+             
              Show "particular solutions" as well as complete solutions
              
              Be able to accept negative Modulo (currently not integrated)
