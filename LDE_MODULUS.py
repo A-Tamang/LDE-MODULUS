@@ -5,39 +5,28 @@
 # Student of University of Waterloo
 # Created: Winter 2014
 #
-# Synopsis:
-#          
-#          A text-based Dungeon Crawling RPG made in Python. It employs the use of
-#          Object Oriented Programming to handle stats of the characters and monsters.
-#          Careful attention has been paid to balancing the game to make the playing
-#          experience as pleasurable as possible.
+#  Synopsis:
 #
-# Description:
+#       A Linear Diophantine/Modulus Equation Solver made in Python. 
 #
-#          In BLT_RPG, you are an adventure raiding a floating castle inhabited by 
-#          the notorious bandit guild, 'Neko Hooligans'. In the character creation section, 
-#          you must pick one of five classes: 
-#          
-#               i) Berserker ii) Hemomancer iii) Weaponmaster iv) Archmage v) Lone Wolf
-#          
-#          With a weapon in hand, your objective is cleave through the Hooligans, ascend
-#          the three floors of the floating castle and confront the ever-elusive 
-#          phantom leader of the guild.
+#  Purpose:
 #
+#       This program can evaluate any LDE (Linear Diophantine Equation)
+#       or Modulus Equation and provide a solution (or declare that
+#       there is no solution to be found). 
 #
-# Instructions:
+#  Instructions:
 #
-#          The game is very easy to play. It is text-based and therefore every interaction,
-#          --whether it is traversing through the dungeon, fighting monsters 
-#          or checking one's stats-- is done through the use of I/O with Python. 
+#       To use, simply run the run the program on PythonIDLE (as it has a larger 
+#       screen for text to show up) and follow the instructions.
 #
-#
-# Possible Future Updates:
-#
-#          i) Cleaner Battles; easier to distinguish damage
-#         ii) The integration of a map to make traversing a bit easier
-#        iii) The introduction of a GUI
-#
+#  Future Updates:
+#             
+#         i) Show "particular solutions" as well as complete solutions
+#        ii) Be able to accept negative Modulo (currently not integrated)
+#       iii) Make modulo calculations more efficient by simplying before evaluating via EEA Algorithm
+#        iv) Make into webpage with a clean interface
+#         v) Seperate into clear-cut modules for future usage
 #
 #-------------------------------------------------------------------------------------------
 import math
