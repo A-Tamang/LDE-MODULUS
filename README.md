@@ -17,10 +17,10 @@ Instructions:
 
 Future Updates:
              
-             i) Show "particular solutions" as well as complete solutions
+              i) Show "particular solutions" as well as complete solutions
              ii) Be able to accept negative Modulo (currently not integrated)
-           iii) Make modulo calculations more efficient by simplying
-                  before evaluating via EEA Algorithm
-            iv) Make into webpage with a clean interface
-            v) Seperate into clear-cut modules for future usage
+            iii) Make modulo calculations more efficient by simplying
+                     before evaluating via EEA Algorithm
+             iv) Make into webpage with a clean interface
+              v) Seperate into clear-cut modules for future usage
 
