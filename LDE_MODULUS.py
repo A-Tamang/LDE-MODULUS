@@ -192,7 +192,7 @@ def Calculate_XY(i, ii, quotient):
 
 #main
 
-print ("\nWelcome to LDE/Modulo Equation Calculator!")
+print ("\nWelcome to A-Tamang's LDE/Modulo Equation Calculator!")
 
 while True:
     while True:
