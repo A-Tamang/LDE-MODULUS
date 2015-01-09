@@ -25,4 +25,6 @@ Future Updates:
                   before evaluating via EEA Algorithm
                   
             iv) Make into webpage with a clean interface
+            
+            v) Seperate into clear-cut modules for future usage
 
