@@ -1,4 +1,4 @@
-# [WIP] LDE-MODULUS
+# [WIP] LDE-Modulus_Solver
 
 Synopsis:
 
