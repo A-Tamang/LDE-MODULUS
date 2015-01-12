@@ -20,11 +20,16 @@
 #       To use, simply run the run the program on PythonIDLE (as it has a larger 
 #       screen for text to show up) and follow the instructions.
 #
+#  Updates:
+#
+#       V.1.1 - Modulo reduction function added; lots of fixes to modulus section
+#       V.1.0 - LDE section is complete (not fully tested), Modulus section is 90% complete
+#
 #  Future Updates:
 #             
-#         i) Show "particular solutions" as well as complete solutions
-#        ii) Be able to accept negative Modulo (currently not integrated)
-#       iii) Make modulo calculations more efficient by simplying before evaluating via EEA Algorithm
+#         i) Ferverously test to find errors
+#        ii) Show "particular solutions" as well as complete solutions
+#       iii) Be able to accept negative Modulo (currently not integrated)
 #        iv) Make into webpage with a clean interface
 #         v) Seperate into clear-cut modules for future usage
 #
@@ -74,7 +79,7 @@ def LDE_check():
 
 def LDE_Solve(a, b, c, d):
     x, y = Initialize(a, b)
-    x, y = str(int(x * c/d)), str(int(y * c/d))
+    x, y = str(int(x * c/d)), str(int(y * c/d))  
     first, second = str(int(b/d)), str(int(-a/d))
     Answer = "The complete solution in LDE is... "+"\n  x = "+x+" + ("+first+")n \n  y = "+y+" + ("+second+")n \nwhere n can be any integer!"
     return Answer
@@ -118,48 +123,44 @@ def MOD_check():
             print("Please enter a valid input.\n")
     d = gcd(a,b)
     quotient = mod/d
-    print (quotient)
     print ("\nThe GCD of", a, "and", b, "is", str(d)+".")
-    if mod == 1:
+    if Mod_Reduce(a, mod) == 0:
+        a, mod = str(a), str(mod)
+        return ("The number "+a+", in modulo "+mod+", is 0 therefore there are no solutions.")
+    elif mod == 1:
         return "The solution in Modulo notation is... "+"\n  x = 0 (mod 1)"
-    elif a == 1:
+    elif Mod_Reduce(a, mod) == 1:
         return One_a(b, mod)
-    elif quotient.is_integer():
-        return MOD_Solve(a, b, mod, d)
     else:
-        return "There are no integer solutions in x and y for this particular set of input."
-
+        return MOD_Solve(a, b, mod, d)
 
 def MOD_Solve(a, b, mod, d):
     x, y = Initialize(a, mod)
+    print (x)
     x = int(x * b/d)
+    print (x)
+    x = Mod_Reduce(x, mod)
+    print (x)
+    x,mod = str(x), str(mod)
+    Answer = "The complete solution in Modulo notation is... "+"\n  x = "+x+" (mod "+mod+")"
+    return Answer
+
+def Mod_Reduce(x, mod):
     if x < mod:
         while True:
             x = x + mod
-            if x > 0:
+            if x >= 0:
                 break
     elif x >= mod:
         while True:
             x = x - mod
             if x < mod:
                 break
-    x,mod = str(x), str(mod)
-    Answer = "The complete solution in Modulo notation is... "+"\n  x = "+x+" (mod "+mod+")"
-    return Answer
-
+    return x
+    
 
 def One_a(b, mod):
-    if b < mod:
-        while True:
-            b = b + mod
-            if b > 0:
-                break
-    elif b >= mod:
-        while True:
-            b = b - mod
-            if b < mod:
-                break
-    b,mod = str(b), str(mod)
+    b,mod = str((Mod_Reduce(b, mod))), str(mod)
     Answer = "The complete solution in Modulo notation is... "+"\n  x = "+b+" (mod "+mod+")"
     return Answer
     
