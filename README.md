@@ -15,11 +15,16 @@ Instructions:
              To use, simply run the run the program on PythonIDLE (as it has a larger 
              screen for text to show up) and follow the instructions.
 
+Updates:
+
+             V.1.0 - LDE section is complete (not fully tested), Modulus section is 90% complete
+             V.1.1 - Modulo reduction function added
+
 Future Updates:
              
-              i) Show "particular solutions" as well as complete solutions
-             ii) Be able to accept negative Modulo (currently not integrated)
-            iii) Make modulo calculations more efficient by simplying before evaluating via EEA Algorithm
+              i) Ferverously test to find errors
+             ii) Show "particular solutions" as well as complete solutions
+            iii) Be able to accept negative Modulo (currently not integrated)
              iv) Make into webpage with a clean interface
               v) Seperate into clear-cut modules for future usage
 
