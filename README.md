@@ -17,8 +17,8 @@ Instructions:
 
 Updates:
 
-             V.1.0 - LDE section is complete (not fully tested), Modulus section is 90% complete
              V.1.1 - Modulo reduction function added
+             V.1.0 - LDE section is complete (not fully tested), Modulus section is 90% complete
 
 Future Updates:
              
