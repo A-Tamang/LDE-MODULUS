@@ -1,6 +1,6 @@
 # [WIP] LDE-Modulus_Solver
 
-Created: Winter 2014
+Created:  Winter 2014
 
 Synopsis:
 
