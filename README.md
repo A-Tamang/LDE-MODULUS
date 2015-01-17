@@ -1,5 +1,7 @@
 # [WIP] LDE-Modulus_Solver
 
+Created: Winter 2014
+
 Synopsis:
 
              A Linear Diophantine/Modulus Equation Solver made in Python. 
