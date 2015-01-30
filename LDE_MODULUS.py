@@ -33,6 +33,8 @@
 #        iv) Make into webpage with a clean interface
 #         v) Seperate into clear-cut modules for future usage
 #
+#
+#
 #-------------------------------------------------------------------------------------------
 import math
 from fractions import gcd
@@ -136,17 +138,14 @@ def MOD_check():
 
 def MOD_Solve(a, b, mod, d):
     x, y = Initialize(a, mod)
-    print (x)
     x = int(x * b/d)
-    print (x)
     x = Mod_Reduce(x, mod)
-    print (x)
     x,mod = str(x), str(mod)
     Answer = "The complete solution in Modulo notation is... "+"\n  x = "+x+" (mod "+mod+")"
     return Answer
 
 def Mod_Reduce(x, mod):
-    if x < mod:
+    if (x < mod) and (x < 0):
         while True:
             x = x + mod
             if x >= 0:
